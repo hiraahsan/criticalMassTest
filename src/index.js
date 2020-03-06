@@ -47,8 +47,9 @@ const renderResults = (type, section) => {
         const menu = document.createElement('li')
         menu.innerHTML = 
         `<h3 class=${spicy ? 'spicy' : ""}>${name}</h2>
+        <p class="price">$${price.toFixed(2)}</p>
+
         <p>${description}</p>
-        <p>$${price.toFixed(2)}</p>
         `
 
         section.append(menu);
