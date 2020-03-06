@@ -3,19 +3,22 @@
 ### 1. Javascript Quiz (Harry Potter Sorting Hat Quiz)
 
 - First Solo Javascript Project
-- Used jQuery to build the quiz
+- Used jQuery to build the quiz, working with conditional statements and error handling</br>
+[Live Link](https://hiraahsan.github.io/hiraAhsanProjectThree/)</br>
+[Github](https://github.com/hiraahsan/hiraAhsanProjectThree)
 
 ### 2. Writer's Block
 - Solo React Project
--	An app to create storyboards, through multiple user inputs, using pictures and text. Created using React, Firebase, and the Unsplash API. 
-[Live link](https://hiraahsan.github.io/hira-ahsan-project-five/)
+-	An app to create storyboards, through multiple user inputs, using pictures and text. Created using React, Firebase, and the Unsplash API. </br>
+[Live link](https://hiraahsan.github.io/hira-ahsan-project-five/)</br>
 [Github](https://github.com/hiraahsan/hira-ahsan-project-five)
 
 ### 3. Not So Social 
 - Mob programming project in a group of 4, working with React and Firebase, and the TVDB and GIPHY APIs. 
 - Contributions were split evenly amongst group members, we were all involved in each others troubleshooting.
-- My contributions included working with majority of the design, integrating TVDB API and React Router. 
-
+- My contributions included working with majority of the design, integrating TVDB API and React Router. </br>
+[Live Link](https://not-so-social.github.io/notSoSocial/)</br>
+[Github](https://github.com/Not-So-Social/notSoSocial)
 
 ## Inspiration
 
