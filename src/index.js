@@ -46,11 +46,13 @@ const renderResults = (type, section) => {
         let { name, description, price, spicy} = item
         const menu = document.createElement('li')
         menu.innerHTML = 
-        `<h3 class=${spicy ? 'spicy' : ""}>${name}</h2>
+        `<h3>${name}</h3>
         <p class="price">$${price.toFixed(2)}</p>
 
         <p>${description}</p>
         `
+
+        menu.className += spicy ? 'spicy' : ""
 
         section.append(menu);
     })
@@ -58,3 +60,23 @@ const renderResults = (type, section) => {
 renderResults(pasta, pastaSection)
 renderResults(pizza, pizzaSection)
 renderResults(starters, startersSection)
+
+// checkbox filtering
+
+const spicyItems = document.getElementsByClassName('spicy')
+
+const showSpicy = document.getElementById('showSpicy')
+showSpicy.checked === true;
+
+showSpicy.addEventListener('change', () => {
+    if (showSpicy.checked == false) {
+
+        for (let i = 0; i < spicyItems.length; i++) {
+            spicyItems[i].style.display = "none"
+        }
+    } else {
+        for (let i = 0; i < spicyItems.length; i++) {
+            spicyItems[i].style.display = "block"
+        }
+    }
+})
