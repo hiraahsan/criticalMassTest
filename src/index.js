@@ -42,10 +42,8 @@ const startersSection = document.getElementById('starters');
 
 const renderResults = (type, section) => {
 
-    let list = document.createElement('ul');
-    let listItem = document.createElement('li');
     type.forEach( (item) => {
-        let { name, description, price, spicy, menuOrder} = item
+        let { name, description, price, spicy} = item
         const menu = document.createElement('li')
         menu.innerHTML = 
         `<h3 class=${spicy ? 'spicy' : ""}>${name}</h2>
