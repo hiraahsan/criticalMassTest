@@ -1,22 +1,32 @@
-# 2020 Internship Menu Exercise
+## Work / Project Examples
 
-Tackle the following steps to create a menu for a "Fancy Italian Restaurant".
+1. Javascript Quiz (Harry Potter Sorting Hat Quiz)
 
-## 1. Sorting
+- First Solo Javascript Project
+- Used jQuery to build the quiz
 
-- In `index.js`, loop over `menuItems` and categorize them into sections based on each items assigned `type`
-- Sort the items in each category by their `menuOrder`
+2. Writer's Block
+- Solo React Project
+-	An app to create storyboards, through multiple user inputs, using pictures and text. Created using React, Firebase, and the Unsplash API. 
+[Live link](https://hiraahsan.github.io/hira-ahsan-project-five/)
+[Github](https://github.com/hiraahsan/hira-ahsan-project-five)
 
-## 2. Rendering
+3. Not So Social 
+- Mob programming project in a group of 4, working with React and Firebase, and the TVDB and GIPHY APIs. 
+- Contributions were split evenly amongst group members, we were all involved in each others troubleshooting.
+- My contributions included working with majority of the design, integrating TVDB API and React Router. 
 
-- Render the sorted results into the appropriate container with `index.html`
-- Format any prices. For example, 8.5 becomes \$8.50
-- Render the "spicy" icon next to any menu items where `spicy` is `true`
 
-## 3. Styling
+## Inspiration
 
-- Add some "italian menu" styling to boost your stores sales. Use Google Images if you need inspiration.
+1. A.SingleDiv.com - You can truly understand the power of CSS through this website. It's pretty inspiring to see such creative ideas deriving from a simple concept.
+2. https://paveldogreat.github.io/WebGL-Fluid-Simulation/ - came across this one recently, and it seems incredibly creative how it was built through. The effects are all very smooth and it goes to show how much you could get done through coding. 
 
-## 4. BONUS: Filtering
+## Focus
 
-- Add a checkbox to toggle spicy options. When the checkbox is checked, the spicy options should be visible. It should be checked by default.
+If you were given the time and resources to build/learn anything you wanted during your internship, where would you choose to focus your efforts? Provide a brief description of how you would spend your time
+
+- I would want to focus on being able to build the best user experience
+- Learning best practices and working with accessibility standards
+- Working with testing
+- Learning the challenges businesses face while building a website
