@@ -1,17 +1,17 @@
 ## Work / Project Examples
 
-1. Javascript Quiz (Harry Potter Sorting Hat Quiz)
+# 1. Javascript Quiz (Harry Potter Sorting Hat Quiz)
 
 - First Solo Javascript Project
 - Used jQuery to build the quiz
 
-2. Writer's Block
+# 2. Writer's Block
 - Solo React Project
 -	An app to create storyboards, through multiple user inputs, using pictures and text. Created using React, Firebase, and the Unsplash API. 
 [Live link](https://hiraahsan.github.io/hira-ahsan-project-five/)
 [Github](https://github.com/hiraahsan/hira-ahsan-project-five)
 
-3. Not So Social 
+# 3. Not So Social 
 - Mob programming project in a group of 4, working with React and Firebase, and the TVDB and GIPHY APIs. 
 - Contributions were split evenly amongst group members, we were all involved in each others troubleshooting.
 - My contributions included working with majority of the design, integrating TVDB API and React Router. 
@@ -19,7 +19,7 @@
 
 ## Inspiration
 
-1. A.SingleDiv.com - You can truly understand the power of CSS through this website. It's pretty inspiring to see such creative ideas deriving from a simple concept.
+#1. A.SingleDiv.com - You can truly understand the power of CSS through this website. It's pretty inspiring to see such creative ideas deriving from a simple concept.
 2. https://paveldogreat.github.io/WebGL-Fluid-Simulation/ - came across this one recently, and it seems incredibly creative how it was built through. The effects are all very smooth and it goes to show how much you could get done through coding. 
 
 ## Focus
