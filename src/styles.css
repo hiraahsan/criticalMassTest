@@ -25,6 +25,7 @@ body {
   font-family: 'Chivo', sans-serif;
   font-weight: 300;
   line-height: 3.5rem;
+  background: #EBD5B3;
 
 }
 
@@ -73,6 +74,20 @@ h2 {
 .mainSection {
   width: 60%;
   margin: 0 30px;
+}
+
+.price, h3 {
+  display: inline-block;
+}
+
+p:not(.price) {
+  margin-right: 50px;
+}
+
+.price {
+  line-height: 4rem; 
+  right: 20px;
+  position: absolute; 
 }
 
 .spicy:before {
