@@ -21,6 +21,8 @@ for (let i=0; i < menuItems.length; i++) {
     }
 }
 
+// - Sort the items in each category by their `menuOrder`
+
 const sortOrder = (category) => {
     category.sort((a, b) => {
         return a.menuOrder - b.menuOrder;
@@ -31,3 +33,29 @@ sortOrder(pasta);
 sortOrder(pizza);
 sortOrder(starters);
 
+// - Render the sorted results into the appropriate container with `index.html`
+
+const pastaSection = document.getElementById('pasta');
+const pizzaSection = document.getElementById('pizza');
+const startersSection = document.getElementById('starters');
+
+
+const renderResults = (type, section) => {
+
+    let list = document.createElement('ul');
+    let listItem = document.createElement('li');
+    type.forEach( (item) => {
+        let { name, description, price, spicy, menuOrder} = item
+        const menu = document.createElement('li')
+        menu.innerHTML = 
+        `<h3 class=${spicy ? 'spicy' : ""}>${name}</h2>
+        <p>${description}</p>
+        <p>$${price.toFixed(2)}</p>
+        `
+
+        section.append(menu);
+    })
+}
+renderResults(pasta, pastaSection)
+renderResults(pizza, pizzaSection)
+renderResults(starters, startersSection)
